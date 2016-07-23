@@ -7,16 +7,48 @@ Go get em!*/
 
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
+var yourName = "Wainani";
+console.log(yourName);
+
+var  neighborName= "Gina";
+console.log(neighborName);
+
+var teacherName= "Vic";
+console.log(teacherName);
 
 
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear.  Console log each variable.*/
 
+var numberOfFloorsBurjKhalifa = 10;
+console.log(numberOfFloorsBurjKhalifa);
+
+var TokyoOlympicsYear = 15;
+console.log(TokyoOlympicsYear);
+
+
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = "true";
+console.log(lovesPrepClass);
+
+var eatDonuts = "true";
+console.log(eatDonuts);
+
+var drinksGin = "false";
+console.log(drinksGin);
+
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+
+var completedCodingChallenge = "Null";
+console.log(completedCodingChallenge);
+
+var traveledToSpace = "Null";
+console.log(traveledToSpace);
+
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of the names of 5 prefectures in Japan.
@@ -24,16 +56,29 @@ Console log the variable
 Console log the value at index 1.
 Console log the value at index 3.*/
 
+var japanPrefectures = ["Osaka", "Nara", "Kyoto", "Tokyo", "Hokkaido"];
+console.log(japanPrefectures);
+console.log (japanPrefectures[1]);
+console.log(japanPrefectures[3]);
+
 
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
 Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
+var planets = ["Mercury", "Venus", "Mars", "Earth", "Jupiter"];
+console.log(planets);
+console.log(planets.length);
+console.log(planets[3]);
+console.log(planets[6]);
 
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
+
+
+
 
 /*8.  Declare a literal object named "hotel" with properties and values set to:
 
